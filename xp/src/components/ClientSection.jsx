@@ -1,8 +1,8 @@
 // ClientTestimonials.js
 
 import React from 'react';
-import avatarOne from '../assets/avatar1.png';
-import avatarTwo from '../assets/avatar2.png';
+import avatar1 from '../assets/avatar1.png';
+import avatar2 from '../assets/avatar2.png';
 
 const ClientTestimonials = () => {
   return (
@@ -11,13 +11,21 @@ const ClientTestimonials = () => {
         Client Testimonials
       </h2>
 
-      <div className="grid items-center justify-center grid-cols-1 gap-6 px-6 md:grid-cols-2">
+      <div className="grid items-center justify-center grid-cols-1 gap-6 px-6 md:grid-cols-2 bg-custom-dark-blue">
         {[{
-          image: avatarOne,
+          image: avatar1,
           name: 'Claire Bell',
         },
         {
-          image: avatarTwo,
+          image: avatar1,
+          name: 'Claire Bell',
+        },
+        {
+          image: avatar2,
+          name: 'Ralph Fisher',
+        },
+        {
+          image: avatar2,
           name: 'Ralph Fisher',
         }].map((testimonial, index) => (
           <div key={index} className='flex flex-col gap-6 p-10 rounded-lg bg-dark-gray'>
