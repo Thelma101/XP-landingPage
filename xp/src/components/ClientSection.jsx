@@ -24,8 +24,7 @@ const ClientSection = ({image, name}) => {
   )
 }
 
-const Testimonials = () => {
-  return (
+
     <section className='flex flex-col items-center justify-center gap-6 px-6 py-16 md:my-20 md:px-64'>
 
       <h2 className="font-inria-sans text-[42px] leading-[48px] md:text-[54px] font-light md:leading-[64px] md:tracking-[0.15px] text-gray-100 mb-6">
@@ -40,7 +39,7 @@ const Testimonials = () => {
       </div>
     
     </section>
-  )
-}
+  
+
 
 export default ClientSection;
