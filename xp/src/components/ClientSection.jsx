@@ -26,7 +26,7 @@ const ClientTestimonials = () => {
           image: avatar2,
           name: 'Ralph Fisher',
         }].map((testimonial, index) => (
-          <div key={index} className='flex flex-col gap-6 p-10 rounded-lg bg-dark-gray'>
+          <div key={index} className='flex flex-col gap-6 rounded-lg bg-dark-gray'>
             <div className='flex items-start gap-6'>
               <img src={testimonial.image} alt={`${testimonial.name} avatar`} className='w-[52px] h-[52px] rounded-full' />
               <div className='flex flex-col gap-2'>
