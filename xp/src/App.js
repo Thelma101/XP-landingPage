@@ -1,10 +1,10 @@
 import HeaderSection from "./components/HeaderSection";
-import FeatureSection from "./sections/FeatureSection";
-import FooterSection from "./sections/FooterSection";
-import GallerySection from "./sections/GallerySection";
-import HeroSection from "./sections/HeroSection";
-import PartnerSection from "./sections/PartnerSection";
-import ClientFeedback from "./sections/ClientFeedback";
+import FeatureSection from "./components/FeatureSection";
+import FooterSection from "./components/FooterSection";
+import GallerySection from "./components/GallerySection";
+import HeroSection from "./components/HeroSection";
+import PartnerSection from "./components/PartnerSection";
+import ClientFeedback from "./components/ClientFeedback";
 
 function App() {
   
