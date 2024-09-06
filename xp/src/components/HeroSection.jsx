@@ -1,7 +1,7 @@
 import React from 'react';
 import introImg from '../assets/introImage.png';
-import desktopChartImg from '../assets/chart.png';
-import mobileChartImg from '../assets/mchart.png';
+import desktopChartImg from '../assets/dashboard.png';
+
 
 const HeroSection = () => {
   return (
@@ -19,7 +19,7 @@ const HeroSection = () => {
       </button>
 
       <img src={desktopChartImg} alt="Data insights chart" className="self-center hidden mt-12 md:block" />
-      <img src={mobileChartImg} alt="Mobile data insights chart" className="block w-full mt-12 md:hidden" />
+      {/* <img src={mobileChartImg} alt="Mobile data insights chart" className="block w-full mt-12 md:hidden" /> */}
     </header>
   );
 };

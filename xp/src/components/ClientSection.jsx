@@ -24,23 +24,23 @@ const ClientSection = ({image, name}) => {
   )
 }
 
-// const Testimonials = () => {
-//   return (
-//     <section className='flex flex-col items-center justify-center gap-6 px-6 py-16 md:my-20 md:px-64'>
+const Testimonials = () => {
+  return (
+    <section className='flex flex-col items-center justify-center gap-6 px-6 py-16 md:my-20 md:px-64'>
 
-//       <h2 className="font-inria-sans text-[42px] leading-[48px] md:text-[54px] font-light md:leading-[64px] md:tracking-[0.15px] text-gray-100 mb-6">
-//         Client Testimonials
-//       </h2>
+      <h2 className="font-inria-sans text-[42px] leading-[48px] md:text-[54px] font-light md:leading-[64px] md:tracking-[0.15px] text-gray-100 mb-6">
+        Client Testimonials
+      </h2>
 
-//       <div className="grid items-center justify-center grid-cols-1 gap-6 px-6 md:grid-cols-2">
-//         <ReviewCard image={avatarOne} name={'Claire Bell'} />
-//         <ReviewCard image={avatarOne} name={'Claire Bell'} />
-//         <ReviewCard image={avatarTwo} name={'Ralph Fisher'} />
-//         <ReviewCard image={avatarTwo} name={'Ralph Fisher'} />
-//       </div>
+      <div className="grid items-center justify-center grid-cols-1 gap-6 px-6 md:grid-cols-2">
+        <avatarOne image={avatarOne} name={'Claire Bell'} />
+        <avatarOne image={avatarOne} name={'Claire Bell'} />
+        <avatarTwo image={avatarTwo} name={'Ralph Fisher'} />
+        <avatarTwo image={avatarTwo} name={'Ralph Fisher'} />
+      </div>
     
-//     </section>
-//   )
-// }
+    </section>
+  )
+}
 
 export default ClientSection;

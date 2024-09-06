@@ -1,5 +1,5 @@
 import HeaderSection from "./components/HeaderSection";
-import FeatureSection from "./components/FeatureSection";
+import FeaturesSection from "./components/FeaturesSection";
 import FooterSection from "./components/FooterSection";
 import GallerySection from "./components/GallerySection";
 import HeroSection from "./components/HeroSection";
@@ -12,7 +12,7 @@ function App() {
       <div className="items-center justify-center px-2 bg-gradient-to-t from-lightTopSM md:bg-gradient-to-tl md:px-28">
         <HeaderSection />
         <HeroSection />
-        <FeatureSection />
+        <FeaturesSection />
         <GallerySection />
         <PartnerSection />
         <ClientSection />
