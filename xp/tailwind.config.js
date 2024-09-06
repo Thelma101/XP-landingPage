@@ -6,12 +6,14 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'custom-dark-blue': '#040828',
-        'main-background': '#010219',
+        'custom-theme-color': '#040828',
+        'main-bg': '#010219',
       },
       backgroundImage: {
-         'lightFromTop': 'linear-gradient(120deg, #010219, #010219, #1C387A, #010219, #010219, #010219, #010219 , #010219, #010219 , #010219)',
-         'lightFromTopSM': 'linear-gradient(99deg, #010219,#1C387A ,#010219, #010219, #010219, #010219, #010219 , #010219, #010219 , #010219)',
+         'header-light-1': 'linear-gradient(120deg, #010219, #010219, #1C387A, #010219, #010219, #010219, #010219 , #010219, #010219 , #010219)',
+         'header-light-2': 'linear-gradient(100deg, #010219, #010219, #1C387A, #010219, #010219, #010219, #010219 , #010219, #010219 , #010219)',
+         'header-light-3': 'linear-gradient(190deg, #010219,#1C387A ,#010219, #010219, #010219, #010219, #010219 , #010219, #010219 , #010219)',
+         'header-light-4': 'linear-gradient(280deg, #010219,#1C387A ,#010219, #010219, #010219, #010219, #010219 , #010219, #010219 , #010219)',
          
       },
       fontFamily: {
