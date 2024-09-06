@@ -1,7 +1,7 @@
 import React from 'react';
-import spoonKnifeImage from '../assets/spoon&knife.png';
-import knightImage from '../assets/knight.png';
-import infinityImage from '../assets/infinity.png';
+import spoonKnifeImg from '../assets/spoon&knife.png';
+import knightImg from '../assets/knight.png';
+import infinityImg from '../assets/infinity.png';
 
 // Moved FeatureCard component outside
 const FeatureCard = ({ icon, title, description }) => (
@@ -22,23 +22,23 @@ const FeaturesSection = () => (
       <h2 className="text-white font-inria-sans text-[40px] md:text-[52px] leading-[62px] text-center">
         FEATURES
       </h2>
-      <p className="text-white font-inria-sans text-[16px] md:text-[24px] leading-[30px] text-center w-[80%] md:w-[40%] mt-4">
+      <p className="text-white font-inria-sans text-[15px] md:text-[21px] leading-[28px] text-center w-[80%] md:w-[50%] mt-4">
         Most calendars are designed for teams. Slate is designed for freelancers who want a simple way to plan their schedule.
       </p>
     </div>
-    <div className="flex flex-col items-center justify-center gap-6 mt-12 md:flex-row">
+    <div className="flex flex-col items-center justify-center gap-3 p-[0px] mt-12 md:flex-row">
       <FeatureCard
-        icon={spoonKnifeImage}
+        icon={spoonKnifeImg}
         title="A single source of truth"
         description="When you add work to your Slate calendar we automatically calculate useful insights."
       />
       <FeatureCard
-        icon={knightImage}
+        icon={knightImg}
         title="Intuitive interface"
         description="When you add work to your Slate calendar we automatically calculate useful insights."
       />
       <FeatureCard
-        icon={infinityImage}
+        icon={infinityImg}
         title="Or with rules"
         description="When you add work to your Slate calendar we automatically calculate useful insights."
       />
