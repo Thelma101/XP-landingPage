@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaTwitter, FaFacebookF, FaLinkedinIn, FaPhone, FaMapMarkerAlt } from 'react-icons/fa';
 
-const SiteFooter = () => {
+const FooterSection = () => {
 
   const FooterColumn = ({ heading }) => {
     return (
@@ -20,7 +20,7 @@ const SiteFooter = () => {
   };
 
   return (
-    <footer className="flex flex-col md:flex-row gap-8 items-center justify-between px-4 py-12">
+    <footer className="flex flex-col items-center justify-between gap-8 px-4 py-12 md:flex-row">
       <div className="flex flex-col md:flex-row justify-between w-full md:w-[60%] gap-6">
         <FooterColumn heading="Fingertipe" />
         <FooterColumn heading="Resources" />
@@ -51,4 +51,4 @@ const SiteFooter = () => {
   );
 };
 
-export default SiteFooter;
+export default FooterSection;
