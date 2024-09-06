@@ -11,7 +11,7 @@ const ClientTestimonials = () => {
         Client Testimonials
       </h2>
 
-      <div className="grid items-center justify-center grid-cols-1 gap-6 px-6 md:grid-cols-2 bg-custom-dark-blue">
+      <div className="grid items-center justify-center grid-cols-1 gap-6 px-6 m-8 md:grid-cols-2 bg-custom-dark-blue ">
         {[{
           image: avatar1,
           name: 'Claire Bell',
