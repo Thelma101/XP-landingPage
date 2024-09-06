@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import NavBar from "./components/NavBar";
+import FeatureSection from "./sections/FeatureSection";
+import AppFooter from "./sections/AppFooter";
+import GallerySection from "./sections/GallerySection";
+import MainHero from "./sections/MainHero";
+import PartnerSection from "./sections/PartnerSection";
+import ClientFeedback from "./sections/ClientFeedback";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+  
+    return (
+      <div className="bg-gradient-to-t from-lightTopSM md:bg-gradient-to-tl items-center px-2 justify-center md:px-28">
+        <NavBar />
+        <MainHero />
+        <FeatureSection />
+        <GallerySection />
+        <PartnerSection />
+        <ClientFeedback />
+        <AppFooter />
+      </div>
+    );
+  }
 
 export default App;
