@@ -4,7 +4,7 @@ import avatarTwo from '../assets/avatar2.png';
 
 const ClientSection = ({image, name}) => {
   return(
-    <div className='flex flex-col bg-dark-gray rounded-lg p-10 gap-6'>
+    <div className='flex flex-col gap-6 p-10 rounded-lg bg-dark-gray'>
       <div className='flex items-start gap-6'>
         <img src={image} alt='Client testimonial avatar' className='w-[52px] h-[52px] rounded-full' />
         <div className='flex flex-col gap-2'>
@@ -24,23 +24,23 @@ const ClientSection = ({image, name}) => {
   )
 }
 
-const ClientReviews = () => {
-  return (
-    <section className='flex flex-col items-center justify-center md:my-20 gap-6 px-6 md:px-64 py-16'>
+// const Testimonials = () => {
+//   return (
+//     <section className='flex flex-col items-center justify-center gap-6 px-6 py-16 md:my-20 md:px-64'>
 
-      <h2 className="font-inria-sans text-[42px] leading-[48px] md:text-[54px] font-light md:leading-[64px] md:tracking-[0.15px] text-gray-100 mb-6">
-        Client Testimonials
-      </h2>
+//       <h2 className="font-inria-sans text-[42px] leading-[48px] md:text-[54px] font-light md:leading-[64px] md:tracking-[0.15px] text-gray-100 mb-6">
+//         Client Testimonials
+//       </h2>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center justify-center px-6">
-        <ReviewCard image={avatarOne} name={'Claire Bell'} />
-        <ReviewCard image={avatarOne} name={'Claire Bell'} />
-        <ReviewCard image={avatarTwo} name={'Ralph Fisher'} />
-        <ReviewCard image={avatarTwo} name={'Ralph Fisher'} />
-      </div>
+//       <div className="grid items-center justify-center grid-cols-1 gap-6 px-6 md:grid-cols-2">
+//         <ReviewCard image={avatarOne} name={'Claire Bell'} />
+//         <ReviewCard image={avatarOne} name={'Claire Bell'} />
+//         <ReviewCard image={avatarTwo} name={'Ralph Fisher'} />
+//         <ReviewCard image={avatarTwo} name={'Ralph Fisher'} />
+//       </div>
     
-    </section>
-  )
-}
+//     </section>
+//   )
+// }
 
 export default ClientSection;

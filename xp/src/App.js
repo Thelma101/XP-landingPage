@@ -4,18 +4,18 @@ import FooterSection from "./components/FooterSection";
 import GallerySection from "./components/GallerySection";
 import HeroSection from "./components/HeroSection";
 import PartnerSection from "./components/PartnerSection";
-import ClientFeedback from "./components/ClientFeedback";
+import ClientSection from "./components/ClientSection";
 
 function App() {
   
     return (
-      <div className="bg-gradient-to-t from-lightTopSM md:bg-gradient-to-tl items-center px-2 justify-center md:px-28">
+      <div className="items-center justify-center px-2 bg-gradient-to-t from-lightTopSM md:bg-gradient-to-tl md:px-28">
         <HeaderSection />
         <HeroSection />
         <FeatureSection />
         <GallerySection />
         <PartnerSection />
-        <ClientFeedback />
+        <ClientSection />
         <FooterSection />
       </div>
     );
