@@ -1,5 +1,3 @@
-// ClientTestimonials.js
-
 import React from 'react';
 import avatar1 from '../assets/avatar1.png';
 import avatar2 from '../assets/avatar2.png';
@@ -11,7 +9,7 @@ const ClientTestimonials = () => {
         Client Testimonials
       </h2>
 
-      <div className="grid items-center justify-center grid-cols-1 gap-6 px-6 m-8 md:grid-cols-2 bg-custom-theme-color ">
+      <div className="grid items-center justify-center grid-cols-1 gap-6 px-6 m-8 md:gap-12 md:grid-cols-2 bg-custom-theme-color">
         {[{
           image: avatar1,
           name: 'Claire Bell',
@@ -41,7 +39,7 @@ const ClientTestimonials = () => {
               </div>
             </div>
             <p className="font-inter text-[16px] font-normal leading-[26px] text-left text-gray-300">
-              Slate helps you visualize how much time you need to work to meet your monthly and yearly financial goals. 
+              Slate helps you visualize how much time you need to work to meet your monthly and yearly financial goals.
               The tool is practical and easy to use.
             </p>
           </div>
@@ -51,4 +49,4 @@ const ClientTestimonials = () => {
   );
 };
 
-export default ClientTestimonials;
+  export default ClientTestimonials;

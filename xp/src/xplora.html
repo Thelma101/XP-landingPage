@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A-Shape Spotlight with Shadows</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Container for the stage */
+    .stage-container {
+      position: relative;
+      width: 100vw;
+      height: 100vh;
+      background-color: #000; /* Dark background for the stage */
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    /* Spotlight effect with shadows and fading */
+    .spotlight {
+      position: absolute;
+      width: 150vw; /* Increase the size for more fade */
+      height: 150vh;
+      background: radial-gradient(
+        ellipse at center,
+        rgba(255, 255, 255, 0.3),  /* Light at the center */
+        rgba(255, 255, 255, 0.1) 100%, /* Soft fade */
+        rgba(0, 0, 0, 0.05) 70%, /* Outer shadows */
+        rgba(0, 0, 0, 0) 100% /* Complete fade at the edges */
+      );
+      clip-path: polygon(50% 0%, 30% 100%, 70% 100%); /* Inverted A shape */
+      opacity: 1; /* Full opacity to maintain visibility */
+      filter: blur(0px); /* Add blur to soften the edges */
+    }
+
+    /* Optional stage floor */
+    .stage-floor {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      height: 100px;
+      background: #fff;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="stage-container">
+    <!-- Spotlight with soft shadows and fading -->
+    <div class="spotlight"></div>
+
+    <!-- Stage floor (optional for context) -->
+    <div class="stage-floor"></div>
+  </div>
+
+</body>
+</html>
