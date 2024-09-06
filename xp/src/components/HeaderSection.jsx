@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaBars } from 'react-icons/fa';
 
-const NavBar = () => {
+const HeaderSection = () => {
   return (
     <nav className="flex items-center justify-between px-6 py-3">
       <p className="text-white text-center font-inria-sans text-[20px] md:text-[24px] leading-[24px] md:leading-[29px]">
@@ -20,4 +20,4 @@ const NavBar = () => {
   );
 };
 
-export default HeaderBar;
+export default HeaderSection;
