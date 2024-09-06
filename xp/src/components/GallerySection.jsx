@@ -2,7 +2,7 @@ import React from 'react';
 import droneImg from '../assets/drone.png';
 import tabletImg from '../assets/tablet.png';
 import windowImg from '../assets/windowside.png';
-import livingRoomImg from '../assets/domore.png';
+import domoreImg from '../assets/domore.png';
 import codeScreenImg from '../assets/codepic.png';
 import laptopImg from '../assets/laptop.png';
 import cameraImg from '../assets/camera.png';
@@ -23,7 +23,7 @@ const GallerySection = () => {
           <img src={droneImg} alt="Drone flying" className="shadow-md rounded-xl" />
           <img src={tabletImg} alt="Tablet setup" className="shadow-md rounded-xl" />
           <img src={windowImg} alt="Scenic window view" className="shadow-md rounded-xl" />
-          <img src={livingRoomImg} alt="Living room tech setup" className="shadow-md rounded-xl" />
+          <img src={domoreImg} alt="Living room tech setup" className="shadow-md rounded-xl" />
         </div>
 
         <div className="flex justify-around gap-6">
