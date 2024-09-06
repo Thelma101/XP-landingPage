@@ -3,9 +3,9 @@ import introImg from '../assets/introImage.png';
 import desktopChartImg from '../assets/chart.png';
 import mobileChartImg from '../assets/mchart.png';
 
-const MainHero = () => {
+const HeroSection = () => {
   return (
-    <header className="flex flex-col items-center mt-28 justify-center">
+    <header className="flex flex-col items-center justify-center mt-28">
       <img src={introImg} alt="Hero illustration" className="self-center mb-8" />
       <h1 className="font-inria-sans text-[84px] leading-[100px] text-center md:text-[122px] font-extrabold md:leading-[146px] text-gray-100">
         Xplora.io
@@ -14,14 +14,14 @@ const MainHero = () => {
         Empower your team by analyzing data, creating dashboards, and syncing efforts seamlessly.
       </p>
 
-      <button className="md:hidden bg-gray-900 text-gray-100 px-10 py-3 rounded-full mt-10 shadow-lg hover:bg-gray-700">
+      <button className="px-10 py-3 mt-10 text-gray-100 bg-gray-900 rounded-full shadow-lg md:hidden hover:bg-gray-700">
         Start Now
       </button>
 
-      <img src={desktopChartImg} alt="Data insights chart" className="self-center hidden md:block mt-12" />
-      <img src={mobileChartImg} alt="Mobile data insights chart" className="block md:hidden mt-12 w-full" />
+      <img src={desktopChartImg} alt="Data insights chart" className="self-center hidden mt-12 md:block" />
+      <img src={mobileChartImg} alt="Mobile data insights chart" className="block w-full mt-12 md:hidden" />
     </header>
   );
 };
 
-export default MainHero;
+export default HeroSection;
