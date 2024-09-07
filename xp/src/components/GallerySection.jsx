@@ -3,7 +3,7 @@ import droneImg from '../assets/drone.png';
 import tabletImg from '../assets/tablet.png';
 import windowImg from '../assets/windowside.png';
 import domoreImg from '../assets/domore.png';
-import codeScreenImg from '../assets/codepic.png';
+import codePicImg from '../assets/codepic.png';
 import laptopImg from '../assets/laptop.png';
 import cameraImg from '../assets/camera.png';
 import respGallery from '../assets/resp-gallery.png';
@@ -27,7 +27,7 @@ const GallerySection = () => {
         </div>
 
         <div className="flex justify-around gap-6">
-          <img src={codeScreenImg} alt="Monitor displaying code" className="shadow-md rounded-xl" />
+          <img src={codePicImg} alt="Monitor displaying code" className="shadow-md rounded-xl" />
           <img src={laptopImg} alt="Using a laptop" className="shadow-md rounded-xl" />
           <img src={cameraImg} alt="Close-up of a camera" className="shadow-md rounded-xl" />
         </div>

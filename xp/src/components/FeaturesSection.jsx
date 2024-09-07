@@ -5,7 +5,7 @@ import infinityImg from '../assets/infinity.png';
 
 // Moved FeatureCard component outside
 const FeatureCard = ({ icon, title, description }) => (
-  <div className="flex flex-col items-center justify-center">
+  <div className="flex flex-col items-center justify-center ">
     <img src={icon} alt="feature" className="w-8 h-8" />
     <p className="text-white font-inter text-[20px] leading-[30px] font-semibold text-center">
       {title}

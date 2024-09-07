@@ -10,8 +10,8 @@ function App() {
 
   return (
 
-    <div className='items-center justify-center px-1 bg-header-dark header-light md:px-24 '>
-<div className="bg-no-repeat bg-cover bg-header-dark ">
+    <div className=' bg-header-dark header-light md:px-24'>
+<div className="bg-no-repeat bg-cover ">
 
         <HeaderSection />
         <HeroSection />

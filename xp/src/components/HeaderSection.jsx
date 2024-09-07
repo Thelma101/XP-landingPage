@@ -16,6 +16,7 @@ const HeaderSection = () => {
         Get Started
       </button>
       <FaBars size={24} className="text-white md:hidden" />
+      
     </nav>
   );
 };

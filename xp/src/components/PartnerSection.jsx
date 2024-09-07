@@ -8,7 +8,7 @@ import apiaryLogo from '../assets/logos_apiary.png';
 
 const PartnerSection = () => {
   return (
-    <section className='flex flex-col items-center justify-center px-10 my-10'>
+    <section className='flex flex-col items-center justify-center px-10 my-10 '>
       
       <h2 className="font-inria-sans text-[42px] leading-[48px] md:text-[54px] font-light md:leading-[64px] md:tracking-[0.15px] text-gray-100 mb-6">
         Our Partners
