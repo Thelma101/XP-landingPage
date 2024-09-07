@@ -1,3 +1,4 @@
+import React from 'react';
 import HeaderSection from "./components/HeaderSection";
 import FeaturesSection from "./components/FeaturesSection";
 import FooterSection from "./components/FooterSection";
