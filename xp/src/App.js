@@ -10,7 +10,7 @@ function App() {
 
   return (
    
-    <div className='items-center justify-center px-1 bg-main-bg md:px-24 '>
+    <div className='items-center justify-center px-1 bg-main-bg md:header-light-1 md:px-24 '>
 
       <HeaderSection />
       <HeroSection />
