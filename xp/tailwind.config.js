@@ -22,7 +22,6 @@ module.exports = {
       },
       
       
-        
       fontFamily: {
         graphik: ['Graphik', 'sans-serif'],
       },

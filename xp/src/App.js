@@ -11,7 +11,6 @@ function App() {
   return (
 
     <div className=' bg-main-bg md:px-24'>
-
       <HeaderSection />
       <HeroSection />
       <FeaturesSection />

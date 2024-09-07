@@ -1,7 +1,6 @@
 import React from 'react';
 import { FaTwitter, FaFacebookF, FaLinkedinIn, FaPhone, FaMapMarkerAlt } from 'react-icons/fa';
 
-// Moved FooterColumn component outside for cleaner structure
 const FooterColumn = ({ heading }) => (
   <div className="flex flex-col gap-6 mb-6">
     <p className="text-white text-left font-graphik text-[20px] font-medium leading-[30px]">
