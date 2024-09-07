@@ -9,17 +9,17 @@ import ClientSection from "./components/ClientSection";
 function App() {
 
   return (
-   
-    <div className='items-center justify-center px-1 bg-header-dark md:header-light md:px-24 '>
-    <div className='items-center justify-center px-1 bg-header-light md:px-24 '>
 
-      <HeaderSection />
-      <HeroSection />
-      <FeaturesSection />
-      <GallerySection />
-      <PartnerSection />
-      <ClientSection />
-      <FooterSection />
+    <div className='items-center justify-center px-1 bg-header-dark header-light md:px-24 '>
+<div className="bg-no-repeat bg-cover bg-header-dark ">
+
+        <HeaderSection />
+        <HeroSection />
+        <FeaturesSection />
+        <GallerySection />
+        <PartnerSection />
+        <ClientSection />
+        <FooterSection />
     </div>
     </div>
   );
