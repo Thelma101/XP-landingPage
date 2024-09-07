@@ -10,14 +10,10 @@ module.exports = {
         'main-bg': '#010219',
       },
       backgroundImage: {
-        //  'header-light-1': 'linear-gradient(120deg, #010219, #010219, #1C387A, #010219, #010219, #010219, #010219 , #010219, #010219 , #010219)',
-        //  'header-light-2': 'linear-gradient(100deg, #010219, #010219, #1C387A, #010219, #010219, #010219, #010219 , #010219, #010219 , #010219)',
-        //  'header-light-3': 'linear-gradient(190deg, #010219,#1C387A ,#010219, #010219, #010219, #010219, #010219 , #010219, #010219 , #010219)',
-        //  'header-light-4': 'linear-gradient(280deg, #010219,#1C387A ,#010219, #010219, #010219, #010219, #010219 , #010219, #010219 , #010219)',
-         'header-light-1': 'linear-gradient(90deg, #010219 10%, #1C387A 30%, #010219 70%)',
-         'header-light-2': 'linear-gradient(100deg, rgba(28, 56, 122, 0.3), rgba(1, 2, 25, 0.9) 60%, #010219)',
-
-      },
+        'header-dark': 'linear-gradient(90deg, #010219 10%, #1C387A 30%, #010219 70%)',
+        'header-light': 'linear-gradient(to bottom, rgba(28, 56, 122, 0.3) 0%, rgba(28, 56, 122, 0.1) 5%, rgba(1, 2, 25, 0) 10%)',
+      },      
+        
       fontFamily: {
         graphik: ['Graphik', 'sans-serif'],
       },
