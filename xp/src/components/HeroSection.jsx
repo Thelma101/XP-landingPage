@@ -1,6 +1,7 @@
 import React from 'react';
 import introImg from '../assets/introImage.png';
-import desktopChartImg from '../assets/dashboard.png';
+import desktopChart from '../assets/dashboard.png';
+import mobileChart from '../assets/mchart.png';
 
 
 const HeroSection = () => {
@@ -18,8 +19,8 @@ const HeroSection = () => {
         Start Now
       </button>
 
-      <img src={desktopChartImg} alt="Data insights chart" className="self-center hidden mt-12 md:block" />
-      {/* <img src={mobileChartImg} alt="Mobile data insights chart" className="block w-full mt-12 md:hidden" /> */}
+      <img src={desktopChart} alt="desktop-chart" className="self-center hidden mt-12 md:block" />
+      <img src={mobileChart} alt="mobile-chart" className="block w-10/12 mt-12 md:hidden" />
     </header>
   );
 };
