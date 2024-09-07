@@ -10,7 +10,8 @@ function App() {
 
   return (
    
-    <div className='items-center justify-center px-1 bg-header-dark md:header-light-1 md:px-24 '>
+    <div className='items-center justify-center px-1 bg-header-dark md:header-light md:px-24 '>
+    <div className='items-center justify-center px-1 bg-header-light md:px-24 '>
 
       <HeaderSection />
       <HeroSection />
@@ -19,6 +20,7 @@ function App() {
       <PartnerSection />
       <ClientSection />
       <FooterSection />
+    </div>
     </div>
   );
 }
