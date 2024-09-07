@@ -9,7 +9,7 @@ const FeatureCard = ({ icon, title, description }) => (
     <p className="text-white font-inter text-[20px] leading-[30px] font-semibold text-center">
       {title}
     </p>
-    <p className="text-white font-inter text-[16px] leading-[24px] font-normal text-center w-[60%] md:w-[50%]">
+    <p className="text-white font-inter text-[14px] leading-[24px] font-normal text-center w-[60%] md:w-[50%]">
       {description}
     </p>
   </div>

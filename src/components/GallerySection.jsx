@@ -11,11 +11,11 @@ import respGallery from '../assets/resp-gallery.png';
 const GallerySection = () => {
   return (
     <section className="flex flex-col items-center justify-center py-10 my-14">
-      <h2 className="font-inria-sans text-[42px] leading-[50px] md:text-[54px] font-medium md:leading-[64px] text-gray-100 mb-6">
-        Our Work Gallery
+      <h2 className="font-inria-sans text-[40px] leading-[50px] md:text-[54px] font-medium md:leading-[64px] text-gray-100 mb-6">
+        Gallery
       </h2>
-      <p className="font-inter text-[22px] font-light leading-[26px] text-center text-gray-100 mb-14 w-[75%] md:w-[35%]">
-        Discover how we integrate ergonomics with design to deliver seamless experiences at your workspace.
+      <p className="font-inria-sans mb-14 w-[85%] md:w-[45%] text-white font-inria-sans text-[15px] md:text-[21px] leading-[28px] text-center mt-4">
+        We focus on ergonomics and meeting you where you work. It's only a keystroke away.
       </p>
 
       <div className="flex-col hidden gap-10 md:flex">

@@ -14,8 +14,8 @@ const PartnerSection = () => {
         Our Partners
       </h2>
 
-      <p className="font-inter text-[18px] md:text-[22px] font-light leading-[20px] md:leading-[25px] text-center text-gray-100 mb-6 w-[98%] md:w-[35%]">
-        We emphasize ergonomics and prioritize meeting you where you work. It’s just a click away.
+      <p className="font-inria-sans mb-14 w-[85%] md:w-[48%] text-white font-inria-sans text-[15px] md:text-[21px] leading-[28px] text-center mt-4">
+      We focus on ergonomics and meeting you where you work. It's only a keystroke away.
       </p>
 
       <div className='flex flex-col gap-6 md:flex-row md:gap-10'>

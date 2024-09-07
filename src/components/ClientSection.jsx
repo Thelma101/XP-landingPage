@@ -6,7 +6,7 @@ const ClientTestimonials = () => {
   return (
     <section className='flex flex-col items-center justify-center gap-6 px-6 py-16 md:my-20 md:px-32 lg:px-64 '>
       <h2 className="font-inria-sans text-[32px] leading-[38px] sm:text-[42px] sm:leading-[48px] md:text-[54px] md:leading-[64px] font-light text-gray-100 mb-6">
-        Client Testimonials
+         Testimonials
       </h2>
 
       <div className="grid grid-cols-1 gap-6 px-6 md:gap-12 md:grid-cols-2">
