@@ -3,7 +3,7 @@ import { FaBars } from 'react-icons/fa';
 
 const HeaderSection = () => {
   return (
-    <nav className="flex items-center justify-between px-6 py-3">
+    <nav className="flex items-center justify-between px-6 py-3 bg-header-dark header-light ">
       <p className="text-white text-center font-inria-sans text-[20px] md:text-[24px] leading-[24px] md:leading-[29px]">
         Xplora.io
       </p>

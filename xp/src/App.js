@@ -10,17 +10,15 @@ function App() {
 
   return (
 
-    <div className=' bg-header-dark header-light md:px-24'>
-<div className="bg-no-repeat bg-cover ">
+    <div className=' bg-main-bg md:px-24'>
 
-        <HeaderSection />
-        <HeroSection />
-        <FeaturesSection />
-        <GallerySection />
-        <PartnerSection />
-        <ClientSection />
-        <FooterSection />
-    </div>
+      <HeaderSection />
+      <HeroSection />
+      <FeaturesSection />
+      <GallerySection />
+      <PartnerSection />
+      <ClientSection />
+      <FooterSection />
     </div>
   );
 }
